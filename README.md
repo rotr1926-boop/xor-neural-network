@@ -11,14 +11,14 @@ Feedforward neural network that learns the XOR logic gate, implemented from scra
 ## Build & Run
 
 ```bash
-g++ NeuralNetwork.c -o xor
+g++ NeuralNetwork.cpp -o xor
 ./xor
 ```
 
 Or to predict using trained weights:
 
 ```bash
-g++ XorPredictor.c -o xor_predict
+g++ XorPredictor.cpp -o xor_predict
 ./xor_predict
 ```
 
